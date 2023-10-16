@@ -1,0 +1,189 @@
+/* ************************ */
+/* SECTION */
+/* ************************ */
+
+.section-tools,
+.section-css,
+.section-fonts,
+.section-images,
+.section-design,
+.section-speed {
+  background-color: #f9fafa;
+}
+
+.section-tools,
+.section-html,
+.section-css,
+.section-js,
+.section-fonts,
+.section-colors,
+.section-images,
+.section-icon,
+.section-design,
+.section-blogs,
+.section-speed,
+.section-node,
+.section-form,
+.footer {
+  padding-bottom: 12rem;
+}
+
+.heading-primary {
+  padding-top: 12rem;
+  text-align: center;
+}
+
+.icon-primary {
+  color: #26afeb;
+  font-size: 5rem;
+}
+
+.primary-text {
+  font-size: 3rem;
+  line-height: 1;
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+
+.grid {
+  display: grid;
+  column-gap: 8rem;
+  row-gap: 8rem;
+  margin-left: 12.8rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.primary-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.secondary-text {
+  font-size: 3.2rem;
+  color: #26afeb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.secondary-text:hover {
+  color: #ff951f;
+  cursor: pointer;
+}
+
+.tertiary-text {
+  font-size: 2.4rem;
+  margin-top: 1.6rem;
+  line-height: 2;
+}
+
+.section-form {
+  background-color: #26afeb;
+  padding: 9.6rem 0 9.6rem 0;
+}
+
+/* ************************ */
+/* HEADER HOME PAGE*/
+/* ************************ */
+
+.home-page {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.994)),
+    url("../img/mountain-two.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* padding: 4.8rem 0 9.6rem 0; */
+}
+
+.header-main {
+  max-width: 160rem;
+  margin: 0 auto;
+  justify-content: center;
+  margin-left: 0;
+  margin-top: 15rem;
+}
+
+.header-img {
+  width: 40rem;
+  text-align: center;
+  perspective: 120rem;
+}
+
+.header-img:hover .main-img {
+  transform: scale(1.1) rotateY(37deg);
+}
+
+.header-img .main-img {
+  width: 100%;
+  display: block;
+  margin-bottom: 5rem;
+  transform: rotateY(37deg);
+  /* transform-origin: left; */
+  /* box-shadow: 0 4rem 5rem rgba(0, 0, 0, 0); */
+  transition: all 0.4s;
+}
+
+.main-text:link,
+.main-text:visited {
+  background-color: #26afeb;
+  color: #f9fafa;
+  font-size: 2.4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  padding: 2rem 3.2rem;
+  border-radius: 9px;
+  margin-bottom: 5rem;
+}
+
+.main-text:hover,
+.main-text:active {
+  background-color: #0e8fc7;
+  border: 1px solid #0e8fc7;
+  color: #f9fafa;
+}
+
+.resource-page {
+  text-align: center;
+  margin-top: 5rem;
+  /* padding-bottom: 3rem; */
+}
+
+.btn--transparent {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #f9fafa;
+  font-size: 2.4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  text-align: end;
+  padding: 2rem 3.2rem;
+  border-radius: 9px;
+}
+
+.btn--transparent:hover {
+  background-color: rgba(186, 180, 180, 0.92);
+  color: black;
+}
+
+.footer,
+.index-page {
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 9.6rem 0 9.6rem 0;
+  margin-top: 1rem;
+  text-align: center;
+}
